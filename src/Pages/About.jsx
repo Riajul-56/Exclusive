@@ -8,9 +8,45 @@ import CustomerItem from '../Components/CustomerItem'
 import icon_shop from '../assets/icon_shop.png'
 import icon_shopping from '../assets/Icon_Shopping.png'
 import icon_Moneybag from '../assets/Icon_Moneybag.png'
-
+import Aboutpepole from '../Components/Aboutpepole'
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
 
 const About = () => {
+
+    var settings = {
+        dots: true,
+        infinite: true,
+        arrows: false,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        appendDots: dots => (
+            <div style={{
+                bottom: "-10%",
+                position: "absolute",
+                left: "50%",
+                transform: "translateX(-50%)"
+            }}
+            >
+                <ul style={{
+                    margin: "0px", display: "flex", gap: "12px",
+                }}> {dots} </ul>
+            </div>
+        ),
+        customPaging: i => (
+            <div
+                style={{
+                    width: "12px",
+                    height: "12px",
+                    background: "#808080",
+                    borderRadius: "50%"
+                }}
+            >
+            </div>
+        )
+    };
+
     return (
         <section >
             <Containers>
@@ -50,8 +86,12 @@ const About = () => {
                     </div>
 
                 </Flex>
-
-                
+                <Slider {...settings}>
+                <Aboutpepole/>
+                <Aboutpepole/>
+                <Aboutpepole/>
+                <Aboutpepole/>
+                </Slider>
             </Containers>
         </section>
     )
