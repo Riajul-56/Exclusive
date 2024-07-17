@@ -12,6 +12,7 @@ import Login from './Pages/Login';
 import Shop from './Pages/Shop';
 import Signup from './Pages/Signup';
 import About from './Pages/About';
+import Contact from './Pages/Contact';
 
 
 const router = createBrowserRouter(
@@ -24,6 +25,8 @@ const router = createBrowserRouter(
       <Route path='/Shop' element={<Shop />}></Route>
       <Route path='/Sign Up' element={<Signup />}></Route>
       <Route path='/About' element={<About />}></Route>
+      <Route path='/Contact' element={<Contact />}></Route>
+
 
 
     </Route>

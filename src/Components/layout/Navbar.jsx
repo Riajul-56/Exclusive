@@ -42,7 +42,7 @@ const Navbar = () => {
 
                             <ListItem className="font-=poppins font-normal leading-6 font-base lg:text-black text-white after:content-[''] after:w-0 mt-3 lg:mt-0 lg:hover:after:w-full block lg:inline-block mr-[48px]  after:h-[1px] after:bg-black after:absolute after:bottom-0 after:left-0 relative after:duration-500">
                                 {" "}
-                                <Link to='/'>Contact</Link>
+                                <Link to='/Contact'>Contact</Link>
                             </ListItem>
 
                             <ListItem className="font-=poppins font-normal leading-6 font-base lg:text-black text-white after:content-[''] after:w-0 mt-3 lg:mt-0 lg:hover:after:w-full block lg:inline-block mr-[48px]  after:h-[1px] after:bg-black after:absolute after:bottom-0 after:left-0 relative after:duration-500">

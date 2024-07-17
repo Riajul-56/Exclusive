@@ -7,6 +7,7 @@ import will from '../assets/will.png'
 import { CiTwitter } from "react-icons/ci";
 import { CiInstagram } from "react-icons/ci";
 import { RiLinkedinLine } from "react-icons/ri";
+import CustomerItem from './CustomerItem'
 
 const Aboutpepole = () => {
     return (
@@ -55,8 +56,6 @@ const Aboutpepole = () => {
                     <RiLinkedinLine />
                 </Flex>
             </div>
-
-
 
         </Flex>
     )

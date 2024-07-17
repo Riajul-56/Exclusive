@@ -11,6 +11,9 @@ import icon_Moneybag from '../assets/Icon_Moneybag.png'
 import Aboutpepole from '../Components/Aboutpepole'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
+import icondelivery from '../assets/icondelivery.png'
+import secure from '../assets/secure.png'
+import service from '../assets/service.png'
 
 const About = () => {
 
@@ -87,11 +90,18 @@ const About = () => {
 
                 </Flex>
                 <Slider {...settings}>
-                <Aboutpepole/>
-                <Aboutpepole/>
-                <Aboutpepole/>
-                <Aboutpepole/>
+                    <Aboutpepole />
+                    <Aboutpepole />
+                    <Aboutpepole />
+                    <Aboutpepole />
                 </Slider>
+
+                <Flex className='mt-[196px] justify-between'>
+                    <CustomerItem imgsrc={icondelivery} title="FREE AND FAST DELIVERY" subtitle="Free delivery for all orders over $140" />
+                    <CustomerItem imgsrc={service} title="24/7 CUSTOMER SERVICE" subtitle="Friendly 24/7 customer support" />
+                    <CustomerItem imgsrc={secure} title="MONEY BACK GUARANTEE" subtitle="We reurn money within 30 days" />
+                </Flex>
+
             </Containers>
         </section>
     )
