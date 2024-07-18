@@ -5,8 +5,8 @@ import Flex from './Flex';
 
 const Info = () => {
     return (
-        <div className='mt-[120px] ml-[30px]'>
-            <div className='border-b-2 '>
+        <div className='mt-[120px] '>
+            <div className='border-b-2 w-full'>
             <Flex className='items-center gap-4 '>
                 <div className='bg-light_red rounded-full flex items-center justify-center text-white p-[10px]'>
                     <IoCallOutline />

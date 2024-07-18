@@ -3,6 +3,7 @@ import Containers from '../Components/layout/Containers'
 import Breadcrumb from '../Components/Breadcrumb'
 import Flex from '../Components/Flex'
 import Info from '../Components/Info'
+import Contactinfo from '../Components/Contactinfo'
 
 
 
@@ -11,14 +12,14 @@ const Contact = () => {
         <section>
             <Containers>
                 <Breadcrumb />
-                
-                <Flex>
-                    <div>
+
+                <Flex className='gap-[62px]'>
+                    <div className='w-[30%]'>
                         <Info />
                     </div>
 
-                    <div>
-
+                    <div className='w-[70%] mt-[120px]'>
+                        <Contactinfo />
                     </div>
                 </Flex>
             </Containers>
