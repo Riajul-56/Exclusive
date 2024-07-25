@@ -10,7 +10,7 @@ const CustomerService = () => {
   return (
     <section className='mt-[140px]'>
       <Containers>
-     <Flex className='justify-around'>
+     <Flex className='justify-around flex-wrap '>
      <CustomerItem imgsrc={icondelivery} title="FREE AND FAST DELIVERY" subtitle="Free delivery for all orders over $140"/>
         <CustomerItem imgsrc={service} title="24/7 CUSTOMER SERVICE" subtitle="Friendly 24/7 customer support"/>
         <CustomerItem imgsrc={secure} title="MONEY BACK GUARANTEE" subtitle="We reurn money within 30 days"/>

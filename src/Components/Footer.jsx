@@ -1,16 +1,16 @@
 import React from 'react'
 import Containers from './layout/Containers'
 import Flex from './Flex'
-import { IoSend } from "react-icons/io5";
+import { IoSend } from "react-icons/io5"
 import Qrcode from '../assets/Qrcode.png'
 import GooglePlay from '../assets/GooglePlay.png'
 import appstore from '../assets/appstore.png'
 import Images from './layout/Images'
-import { Link } from 'react-router-dom';
-import { FaFacebookF } from "react-icons/fa";
-import { LuTwitter } from "react-icons/lu";
-import { FaInstagram } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
+import { Link } from 'react-router-dom'
+import { FaFacebookF } from "react-icons/fa"
+import { LuTwitter } from "react-icons/lu"
+import { FaInstagram } from "react-icons/fa"
+import { FaLinkedinIn } from "react-icons/fa"
 
 const Footer = () => {
   return (

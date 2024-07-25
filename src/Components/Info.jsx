@@ -2,10 +2,11 @@ import React from 'react'
 import { IoCallOutline } from "react-icons/io5";
 import { CiMail } from "react-icons/ci";
 import Flex from './Flex';
+import { Link } from 'react-router-dom';
 
 const Info = () => {
     return (
-        <div className='mt-[120px] '>
+        <div className='lg:mt-[120px] mt-[60px]'>
             <div className='border-b-2 w-full'>
             <Flex className='items-center gap-4 '>
                 <div className='bg-light_red rounded-full flex items-center justify-center text-white p-[10px]'>
@@ -31,7 +32,9 @@ const Info = () => {
             <div>
 
                 <p className='font-poppins font-normal text-[14px] leading-[21px] text-black mt-6 www-[250px]'>Fill out our form and we will contact<br/> you within 24 hours.</p>
+
                 <p className='font-poppins font-normal text-[14px] leading-[21px] text-black mt-4'>Emails: customer@exclusive.com</p>
+
                 <p className='font-poppins font-normal text-[14px] leading-[21px] text-black mt-4'>Emails: support@exclusive.com</p>
             </div>
         </div>
