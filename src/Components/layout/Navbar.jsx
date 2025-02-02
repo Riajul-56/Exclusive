@@ -30,27 +30,27 @@ const Navbar = () => {
                     lg:flex items-center lg:w-[73%] w-full justify-between absolute left-0 top-10 lg:static bg-black lg:bg-transparent  p-5 lg:p-0`}>
 
                         <List>
-                            <ListItem className="font-poppins font-normal leading-6 font-base lg:text-black text-white after:content-[''] after:w-0 mt-3 lg:mt-0 lg:hover:after:w-full block lg:inline-block mr-[48px]  after:h-[1px] after:bg-Gray after:absolute after:bottom-0 after:left-0 relative after:duration-500">
+                            <ListItem className="font-poppins font-normal leading-6 font-base lg:text-black text-white after:content-[''] after:w-0 mt-3 lg:mt-0 lg:hover:after:w-full block lg:inline-block mr-[46px]  after:h-[1px] after:bg-Gray after:absolute after:bottom-0 after:left-0 relative after:duration-500">
                                 {" "}
                                 <Link to='/'>Home</Link>
                             </ListItem>
 
-                            <ListItem className="font-poppins font-normal leading-6 font-base lg:text-black text-white after:content-[''] after:w-0 mt-3 lg:mt-0 lg:hover:after:w-full block lg:inline-block mr-[48px]  after:h-[1px] after:bg-Gray after:absolute after:bottom-0 after:left-0 relative after:duration-500">
+                            <ListItem className="font-poppins font-normal leading-6 font-base lg:text-black text-white after:content-[''] after:w-0 mt-3 lg:mt-0 lg:hover:after:w-full block lg:inline-block mr-[46px]  after:h-[1px] after:bg-Gray after:absolute after:bottom-0 after:left-0 relative after:duration-500">
                                 {" "}
                                 <Link to='/Shop'>Shop</Link>
                             </ListItem>
 
-                            <ListItem className="font-poppins font-normal leading-6 font-base lg:text-black text-white after:content-[''] after:w-0 mt-3 lg:mt-0 lg:hover:after:w-full block lg:inline-block mr-[48px]  after:h-[1px] after:bg-Gray after:absolute after:bottom-0 after:left-0 relative after:duration-500">
+                            <ListItem className="font-poppins font-normal leading-6 font-base lg:text-black text-white after:content-[''] after:w-0 mt-3 lg:mt-0 lg:hover:after:w-full block lg:inline-block mr-[46px]  after:h-[1px] after:bg-Gray after:absolute after:bottom-0 after:left-0 relative after:duration-500">
                                 {" "}
                                 <Link to='/Contact'>Contact</Link>
                             </ListItem>
 
-                            <ListItem className="font-poppins font-normal leading-6 font-base lg:text-black text-white after:content-[''] after:w-0 mt-3 lg:mt-0 lg:hover:after:w-full block lg:inline-block mr-[48px]  after:h-[1px] after:bg-Gray after:absolute after:bottom-0 after:left-0 relative after:duration-500">
+                            <ListItem className="font-poppins font-normal leading-6 font-base lg:text-black text-white after:content-[''] after:w-0 mt-3 lg:mt-0 lg:hover:after:w-full block lg:inline-block mr-[46px]  after:h-[1px] after:bg-Gray after:absolute after:bottom-0 after:left-0 relative after:duration-500">
                                 {" "}
                                 <Link to='/About'>About</Link>
                             </ListItem>
 
-                            <ListItem className="font-poppins font-normal leading-6 font-base lg:text-black text-white after:content-[''] after:w-0 mt-3 lg:mt-0 lg:hover:after:w-full block lg:inline-block mr-[48px]  after:h-[1px] after:bg-Gray after:absolute after:bottom-0 after:left-0 relative after:duration-500">
+                            <ListItem className="font-poppins font-normal leading-6 font-base lg:text-black text-white after:content-[''] after:w-0 mt-3 lg:mt-0 lg:hover:after:w-full block lg:inline-block mr-[46px]  after:h-[1px] after:bg-Gray after:absolute after:bottom-0 after:left-0 relative after:duration-500">
                                 {" "}
                                 <Link to='/Sign Up'>Sign Up</Link>
                             </ListItem>
